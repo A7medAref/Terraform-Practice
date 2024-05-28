@@ -38,21 +38,4 @@ This repository contains various examples and practices for using Terraform to m
 - Each directory contains a `variables.tf` file to define input variables for the configuration.
 - Review and update the `.tf` files with appropriate values for your environment before applying the configuration.
 
-## .gitignore
-
-The repository includes a `.gitignore` file to exclude Terraform-specific files and directories from version control.
-
-```plaintext
-# .gitignore
-.terraform/
-*.tfstate
-*.tfstate.*
-*.log
-crash.log
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-```
-
 Feel free to explore each directory and modify the configurations to suit your learning and practice needs.
